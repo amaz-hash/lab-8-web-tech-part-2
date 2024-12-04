@@ -1,0 +1,48 @@
+.user-info {
+    border: 10px solid black;
+    padding: 25px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #FFEB3B;
+    color: black;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border: 5px solid black;
+    border-radius: 0%;
+    padding: 50px
+}
+
+.user-name {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #FFC107;
+}
+
+.user-email {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.user-role {
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+    border: 3px solid black;
+}
+
+.user-role.administrator {
+    background-color: #e74c3c;
+    color: rgb(0, 0, 0);
+}

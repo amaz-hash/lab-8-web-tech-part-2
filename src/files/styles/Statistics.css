@@ -1,0 +1,44 @@
+.statistics {
+    padding: 25px;
+    border: 10px solid black;
+    border-radius: 5px;
+    background-color: #FFEB3B;
+    color: black;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    border: 3px solid black; 
+    border-radius: 5px;
+    display: inline-block; 
+    background-color: #FFC107; 
+}
+
+.progress-bar {
+    height: 20px;
+    background-color: #FFB300;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 2px solid #FF9800;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background-color: #4CAF50;
+    transition: width 1s ease-in-out;
+}
+
+.statistics p {
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: 500;
+    color: #333;
+}

@@ -1,0 +1,46 @@
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.user-info, .statistics, .messages {
+  flex: 1;
+  min-width: 300px;
+  margin: 10px;
+}
+.messages {
+  padding: 20px;
+  border: 10px solid black;
+  border-radius: 0%;
+  background-color: #FFEB3B;
+  color: black;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 0;
+}
+
+.messages h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: black;
+  font-weight: bold;
+}
+
+.messages ul {
+  padding: 0;
+  list-style: none;
+}
+
+.messages li {
+  background: #ffffff;
+  color: #000000;
+  margin: 10px 0;
+  padding: 15px;
+  border: 5px solid black;
+  border-radius: 0%;
+  font-size: 16px;
+}
